@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('bg.jpeg');
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+.right{
+    position: absolute;
+    right: 0;
+    margin: 5px 0;
+    height: 85%;
+}
+.startmenu img{
+    border-radius: 8px;
+}
+.startmenu{
+    position: absolute;
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.icons{
+    padding-top: 10px;
+    color: white;
+}
+.icons img{
+    padding-top:10px;
+}
+.icons div{
+    padding:20px 3px;
+padding-top:0px;
+}
+/* .pop-up{
+    position: absolute;
+    background-size: cover;
+    right: 40px;
+    top: 3000px;
+    width: 80%;
+    bottom: -3000px;
+    transition: all 0.3s ease-in;
+} */
+#vs{
+    position: absolute;
+    background-size: cover;
+    right: 40px;
+    top: 3000px;
+    width: 80%;
+    bottom: -3000px;
+    transition: all 0.3s ease-in;
+}
+#dis{
+    position: absolute;
+    background-size: cover;
+    right: 40px;
+    top: 4000px;
+    width: 80%;
+    bottom: -4000px;
+    transition: all 0.3s ease-in;
+}
+#bing{
+    position: absolute;
+    background-size: cover;
+    right: 40px;
+    top: 5000px;
+    width: 80%;
+    bottom: -5000px;
+    transition: all 0.3s ease-in;
+}
+#chromo{
+    position: absolute;
+    background-size: cover;
+    right: 40px;
+    top: 6000px;
+    width: 80%;
+    bottom: -6000px;
+    transition: all 0.3s ease-in;
+}
+#bin{
+    position: absolute;
+    background-size: cover;
+    right: 40px;
+    top: 7000px;
+    width: 80%;
+    bottom: -7000px;
+    transition: all 0.3s ease-in;
+}
+#fileex{
+    position: absolute;
+    background-size: cover;
+    left: 40px;
+    top: 8000px;
+    width: 50%;
+    bottom: -8000px;
+    z-index:10;
+    transition: all 0.3s ease-in;
+}
